@@ -1,0 +1,40 @@
+Config:
+  votetime: 60
+  enoughplayer: 3
+  delaytojointime: 300
+  voteddelaytime: 60
+  kickgui:
+    title: '&9请选择你要踢出的玩家 &7(&c%page%&7)'
+Message:
+  help:
+  - '&f&lVoteKick 插件帮助 作者: Yuhiy'
+  - ' &9/vk &f- &a查看 VoteKick 插件帮助'
+  - ' &9/vk help &f- &a查看 VoteKick 插件帮助'
+  - ' &9/vk kick <玩家名字> &f- &a踢出玩家'
+  - ' &9/vk yes &f- &a投票同意'
+  - ' &9/vk no &f- &a投票拒绝'
+  - ' &9/vk stop &f- &a立即结束当前投票(不会踢出玩家)'
+  - ' &9/vk reload &f- &a重载插件配置'
+  reload: '&a插件重载成功!'
+  kick: '&9使用方法:&c /vk kick <玩家名字> &a投票踢出玩家!'
+  noplayer: '&c没有找到该玩家!'
+  kickplayer: '&9玩家&a %voter% &9发出投票将&e %player% &9踢出游戏!'
+  voting: '&9投票倒计时&e %time% &9秒!当前 &a同意&7(&f%yes%&7) &c拒绝&7(&f%no%&7)! &8[/vk yes 同意 - /vk no 拒绝]'
+  stopmessage: '&9投票结束! &a同意&7(&f%yes%&7) &c拒绝&7(&f%no%&7)!'
+  kickmessagebroadcast: '&9票数通过，同意踢出该玩家!'
+  kickmessage: '&c你被投票踢出了游戏!'
+  noenoughvotetokick: '&9投票结束! 没有足够的票数能够踢出该玩家!'
+  canottokickplayer: '&c你不能踢出这个玩家!'
+  invote: '&c当前已存在一个投票回合了!'
+  noenoughplayer: '&c没有足够的在线玩家，不能发动投票!'
+  nopermission: '&c没有权限操作!'
+  adminstopmessage: '&9当前投票被强制结束!'
+  voteyes: '&9投票&a同意&9成功!'
+  voteno: '&9投票&c拒绝&9成功!'
+  voted: '&9你当前已经投过票了!'
+  noinvote: '&c当前没有一个投票回合，操作失败!'
+  stopofplayerleavemessage: '&9被踢出的玩家离开了游戏，投票自动结束!'
+  isvoteplayer: '&9你不能参与这场投票!'
+  delaytojoin: '&c由于你上次投票被踢出了游戏，故不能临时进入游戏，请在 &9%time%秒 &c后再进入游戏!'
+  nottovoteself: '&9你不能投票踢出自己!'
+  invoteddelay: '&9你必须等待&e %time% &9秒后才能发动一次投票!'
